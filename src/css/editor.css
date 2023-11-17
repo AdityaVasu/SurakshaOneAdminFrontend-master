@@ -1,0 +1,114 @@
+/* editor.css */
+body{
+  margin-left: 20px;
+}
+.BlogEditor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.BlogEditor-header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.editor-container {
+  display: flex;
+  flex: 1;
+}
+
+.editor-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-class {
+  flex: 1;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.editor-class {
+  flex: 1;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+
+.toolbar-class {
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+  color: #333;
+}
+
+.input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #333;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.7);
+}
+
+.preview-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.preview {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.publish-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

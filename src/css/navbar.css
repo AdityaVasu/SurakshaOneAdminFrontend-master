@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #070f1c;
+    padding: 10px 0;
+    margin: 10px;
+    font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+    border-bottom: 1px solid #fff;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+  }
+  
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+    font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-size: 28px;
+    font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00;
+  }
+.nav-item{
+  font-family: 'Kanit, sansSerif';
+    font-family: 'Open Sans, sansSerif';
+    font-family: 'Roboto, sansSerif';
+}
+  
